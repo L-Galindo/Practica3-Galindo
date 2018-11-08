@@ -6,7 +6,7 @@ declare -a BASH_ARGC='()'
 declare -a BASH_ARGV='()'
 declare -A BASH_CMDS='()'
 declare -- BASH_COMMAND="git add ."
-declare -a BASH_LINENO='([0]="3")'
+declare -a BASH_LINENO='([0]="2")'
 declare -ar BASH_REMATCH='()'
 declare -a BASH_SOURCE='([0]="/home/ubuntu/.bashrc")'
 declare -- BASH_SUBSHELL
@@ -49,7 +49,7 @@ declare -- OSTYPE="linux-gnu"
 declare -x PATH="/home/ubuntu/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ubuntu/go/bin:/home/ubuntu/.local/bin:/home/ubuntu/.npm-packages/bin"
 declare -a PIPESTATUS='([0]="0")'
 declare -x PIP_USER="true"
-declare -ir PPID="6315"
+declare -ir PPID="136"
 declare -- PROMPT_COMMAND="history -a;tmux_save_session"
 declare -- PS1="\\[\\e]0;\\w\\a\\]\${debian_chroot:+(\$debian_chroot)}\\[\\033[01;32m\\]\\[\\033[00m\\]\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\\$ "
 declare -- PS2="> "
@@ -59,14 +59,13 @@ declare -i RANDOM
 declare -- SECONDS
 declare -x SHELL="/bin/bash"
 declare -r SHELLOPTS="braceexpand:emacs:hashall:histexpand:history:interactive-comments:monitor"
-declare -x SHLVL="2"
+declare -x SHLVL="3"
 declare -x TERM="xterm-256color"
-declare -x TMUX="/tmp/tmux-1000/default,6315,0"
-declare -x TMUX_PANE="%0"
-declare -x TMUX_SESSION_NAME="drvvy293a9p"
+declare -x TMUX="/tmp/tmux-1000/default,136,1"
+declare -x TMUX_PANE="%1"
+declare -x TMUX_SESSION_NAME="xsqlike5sgh"
 declare -- TRAP_DEBUG_COMMAND="[[ \${BASH_COMMAND} =~ ^history ]] || ( echo -ne \"\\033]0;\"; echo -n \"\${BASH_COMMAND} - \${PWD/\\/home\\/ubuntu/\\~}\"; echo -ne \"\\007\";tmux_save_session \"\${BASH_COMMAND}\")"
 declare -ir UID="1000"
 declare -x USER="ubuntu"
-declare -x USERNAME="ubuntu"
 declare -- _="git add ."
 declare -- command="git add ."
